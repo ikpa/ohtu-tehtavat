@@ -23,6 +23,6 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x viikko2/tehtavat1-4/gradlew
     - name: Checkstyle
-      run: ./viikko2/tehtavat1-4/gradlew checkstyleMain
+      run: ./viikko2/tehtavat1-4/gradlew viikko2/tehtavat1-4/checkstyleMain
     - name: Build with gradle
       run: ./viikko2/tehtavat1-4/gradlew build
