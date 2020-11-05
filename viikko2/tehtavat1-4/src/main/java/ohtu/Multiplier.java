@@ -1,6 +1,7 @@
 package ohtu;
 
-public class Multiplier {
+public class Multiplier
+{
     
     private int value;
     public Multiplier(int value) {
