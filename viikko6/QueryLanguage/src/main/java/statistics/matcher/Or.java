@@ -21,6 +21,10 @@ public class Or implements Matcher {
     
     @Override
     public boolean matches(Player p) {
-        return matcher1.matches(p) || matcher2.matches(p);
+        boolean m1 = matcher1.matches(p);
+        boolean m2 = matcher2.matches(p);
+        boolean value = m1 || m2;
+        
+        return value;
     }
 }
